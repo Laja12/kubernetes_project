@@ -14,5 +14,4 @@ spec:
     - name: http
       port: 80
       targetPort: 80
-      nodePort: 30080   # Optional; if omitted, Kubernetes assigns a free port in 30000-32767
-``
+      nodePort: 30080
